@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de Moumina Anwar, étudiante en informatique à HESTIM Casablanca.">
+  <meta name="theme-color" content="#f4dfe2">
+  <title>Moumina Anwar | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="background-glow glow-one"></div>
+  <div class="background-glow glow-two"></div>
+  <header class="header">
+    <nav class="navbar container" aria-label="Navigation principale">
+      <a href="#home" class="logo">M<span>.</span>A</a>
+
+      <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+
+      <div class="nav-links">
+        <a href="#home" class="nav-link active">Accueil</a>
+        <a href="#about" class="nav-link">À propos</a>
+        <a href="#skills" class="nav-link">Compétences</a>
+        <a href="#projects" class="nav-link">Projets</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+
+      <a href="#contact" class="nav-cta">Me contacter <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-content">
+        <div class="availability">
+          <span class="status-dot"></span>
+          Étudiante en informatique · Casablanca
+        </div>
+
+        <p class="eyebrow">BONJOUR, JE SUIS</p>
+        <h1>Moumina<br><span>Anwar.</span></h1>
+        <h2>Future ingénieure en cybersécurité</h2>
+
+        <p class="hero-description">
+          Étudiante en première année de cycle préparatoire informatique à HESTIM.
+          Passionnée par le développement web, les nouvelles technologies
+          et la cybersécurité.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="button button-primary">Découvrir mes projets <span>↗</span></a>
+          <a href="#contact" class="button button-secondary">Discutons ensemble</a>
+        </div>
+
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/moumina-anwar-590626320/"
+             target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <span class="social-divider"></span>
+          <span class="location">Casablanca, Maroc</span>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Illustration de développeuse">
+        <div class="visual-orbit orbit-one"></div>
+        <div class="visual-orbit orbit-two"></div>
+        <div class="visual-card">
+          <div class="code-window">
+            <div class="window-top">
+              <div class="window-dots"><i></i><i></i><i></i></div>
+              <span>about_me.js</span>
+            </div>
+            <div class="code-content">
+              <p><span class="code-purple">const</span> <span class="code-blue">developer</span> = {</p>
+              <p class="indent"><span class="code-green">name</span>: <span class="code-yellow">'Moumina Anwar'</span>,</p>
+              <p class="indent"><span class="code-green">school</span>: <span class="code-yellow">'HESTIM'</span>,</p>
+              <p class="indent"><span class="code-green">field</span>: <span class="code-yellow">'Computer Science'</span>,</p>
+              <p class="indent"><span class="code-green">interests</span>: [</p>
+              <p class="indent double"><span class="code-yellow">'Web Development'</span>,</p>
+              <p class="indent double"><span class="code-yellow">'Cybersecurity'</span></p>
+              <p class="indent">]</p>
+              <p>};</p>
+              <p class="code-comment">// Always learning. Always building.</p>
+            </div>
+          </div>
+          <div class="floating-badge badge-html"><span>〈/〉</span> HTML</div>
+          <div class="floating-badge badge-js"><span>JS</span> JavaScript</div>
+          <div class="floating-badge badge-css"><span>#</span> CSS</div>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-indicator"><span></span> Faites défiler</a>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">QUI SUIS-JE ?</p>
+        <h2>Un esprit curieux,<br><span>une passion pour la tech.</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            Je suis Moumina, étudiante en première année de cycle préparatoire
+            informatique à HESTIM School, à Casablanca.
+          </p>
+          <p>
+            J'aime comprendre comment les choses fonctionnent, résoudre des
+            problèmes et transformer des idées en projets concrets. Je développe
+            actuellement mes bases en programmation, en développement web
+            et en informatique.
+          </p>
+          <p>
+            Mon objectif est de continuer à apprendre, de construire des projets
+            utiles et d'évoluer vers une carrière en ingénierie informatique
+            et en cybersécurité.
+          </p>
+          <a href="#contact" class="text-link">Travaillons ensemble <span>↗</span></a>
+        </div>
+
+        <div class="about-facts">
+          <article class="fact-card">
+            <span class="fact-number">01</span>
+            <h3>Curiosité</h3>
+            <p>Apprendre et explorer de nouvelles technologies.</p>
+          </article>
+          <article class="fact-card">
+            <span class="fact-number">02</span>
+            <h3>Créativité</h3>
+            <p>Imaginer et concevoir des expériences web.</p>
+          </article>
+          <article class="fact-card">
+            <span class="fact-number">03</span>
+            <h3>Persévérance</h3>
+            <p>Progresser étape par étape, avec rigueur.</p>
+          </article>
+          <article class="fact-card">
+            <span class="fact-number">04</span>
+            <h3>Ambition</h3>
+            <p>Construire une carrière dans la technologie.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">CE QUE J'APPRENDS</p>
+        <h2>Mes compétences <span>techniques.</span></h2>
+        <p class="section-description">
+          Des bases solides que je développe à travers mes cours et mes projets personnels.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+          <div class="skill-icon">&lt;/&gt;</div>
+          <h3>Développement web</h3>
+          <p>Création de pages web structurées, stylisées et interactives.</p>
+          <div class="skill-tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">{ }</div>
+          <h3>Programmation</h3>
+          <p>Algorithmique, logique et résolution de problèmes.</p>
+          <div class="skill-tags"><span>Algorithmique</span><span>Python</span><span>Logique</span></div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">⌘</div>
+          <h3>Informatique</h3>
+          <p>Découverte des systèmes, outils numériques et réseaux.</p>
+          <div class="skill-tags"><span>Systèmes</span><span>Réseaux</span><span>Git</span></div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">⌁</div>
+          <h3>Cybersécurité</h3>
+          <p>Exploration des principes de sécurité et de protection des données.</p>
+          <div class="skill-tags"><span>Sécurité</span><span>Veille</span><span>En apprentissage</span></div>
+        </article>
+      </div>
+      <p class="skills-note">Les technologies listées sont à adapter à ton niveau réel de maîtrise.</p>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading projects-heading">
+        <div>
+          <p class="eyebrow">MES RÉALISATIONS</p>
+          <h2>Des idées qui prennent <span>forme.</span></h2>
+        </div>
+        <span class="project-count">01 — 03</span>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-preview preview-portfolio">
+            <div class="preview-browser">
+              <div class="preview-bar"><i></i><i></i><i></i></div>
+              <div class="preview-content">
+                <span class="preview-label">PORTFOLIO</span>
+                <div class="preview-line line-long"></div>
+                <div class="preview-line line-short"></div>
+                <div class="preview-button"></div>
+              </div>
+            </div>
+            <span class="preview-number">01</span>
+          </div>
+          <div class="project-info">
+            <div class="project-meta"><span>Développement web</span><span>2026</span></div>
+            <h3>Portfolio personnel</h3>
+            <p>Un site responsive pour présenter mon parcours, mes compétences et mes projets.</p>
+            <div class="skill-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="project-link">Voir le code <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-preview preview-algo">
+            <div class="algorithm-art">
+              <span>START</span><b>↓</b><span>INPUT</span><b>↓</b><span>PROCESS</span><b>↓</b><span>OUTPUT</span>
+            </div>
+            <span class="preview-number">02</span>
+          </div>
+          <div class="project-info">
+            <div class="project-meta"><span>Algorithmique</span><span>En cours</span></div>
+            <h3>Exercices d'algorithmique</h3>
+            <p>Une collection d'exercices pour pratiquer les variables, conditions et boucles.</p>
+            <div class="skill-tags"><span>Algorithmique</span><span>Logique</span></div>
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="project-link">Voir le code <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-preview preview-cyber">
+            <div class="shield-art"><span>✦</span><div class="shield-check">✓</div></div>
+            <span class="preview-number">03</span>
+          </div>
+          <div class="project-info">
+            <div class="project-meta"><span>Cybersécurité</span><span>À venir</span></div>
+            <h3>Mini-projet sécurité</h3>
+            <p>Un futur projet personnel pour explorer les fondamentaux de la cybersécurité.</p>
+            <div class="skill-tags"><span>Cybersecurity</span><span>Learning</span></div>
+            <a href="#contact" class="project-link">Suivre mon parcours <span>↗</span></a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-inner">
+        <p class="eyebrow">UNE IDÉE OU UNE OPPORTUNITÉ ?</p>
+        <h2>Construisons quelque chose<br><span>de remarquable.</span></h2>
+        <p>Je suis ouverte aux échanges, aux collaborations et aux opportunités d'apprentissage.</p>
+        <a href="mailto:your.email@example.com" class="button button-primary">M'envoyer un e-mail <span>↗</span></a>
+
+        <div class="contact-socials">
+          <a href="https://www.linkedin.com/in/moumina-anwar-590626320/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <a href="#home" class="logo">M<span>.</span>A</a>
+    <p>© <span id="year"></span> Moumina Anwar. Conçu avec passion.</p>
+    <a href="#home" class="back-top">Retour en haut ↑</a>
+  </footer>
+</body>
+</html>
